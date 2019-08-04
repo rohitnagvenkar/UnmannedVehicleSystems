@@ -136,6 +136,7 @@ Ninja flex material and was placed on the chassis in order to support the compon
 CAD model of the rover is presented in figure 2.2.
 
 
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image009.jpg)
 ```
 Figure 2.2: CAD Model of Rover with Hardware Mounted
 ```
@@ -148,7 +149,7 @@ planner by connecting through USB. Latest firmware 3.5 was automatically downloa
 and installed but since the version used was pixhawk 2, old compatible firmware 3.4.2 was
 installed for appropriate calibrations.
 
-
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image011.jpg)
 ```
 Figure 2.3: Pixhawk connections
 ```
