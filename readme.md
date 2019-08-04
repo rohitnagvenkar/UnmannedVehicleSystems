@@ -103,6 +103,7 @@ The hardware setup for this task is presented in figure 2.1.
 
 ```
 ![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image008.jpg)
+
 Figure 2.1: Initial setup of hardware
 ```
 
