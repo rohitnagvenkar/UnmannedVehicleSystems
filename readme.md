@@ -556,6 +556,10 @@ for multiple variables and equations is the Jacobian matrix. The linearized equa
 then used in a similar manner as compared to regular Kalman filter.
 The system dynamics for the rover are given by:
 
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/formula1.jpg)
+
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/formula2.jpg)
+
 
 ### 5.2 Accessing the sensor data from Pixhawk
 
