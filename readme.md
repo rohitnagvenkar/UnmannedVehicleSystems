@@ -164,7 +164,7 @@ presented in figure 2.4. The converted PWM signal is then used to control the po
 of the motors using dual channel H bridge. The gear switch on the RC is also configured
 with Safety Override System in case of an emergency.
 
-
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image013.jpg)
 ```
 Figure 2.4: Circuit Diagram
 ```
@@ -181,7 +181,7 @@ For calibration, the rover is positioned on horizontal, vertical and on each sid
 A snapshot from the Mission Planner, displaying the procedure of calibration is presented
 in figure 2.
 
-
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image015.jpg)
 ```
 Figure 2.5: Accelerometer calibrating on mission planner
 ```
@@ -197,6 +197,7 @@ until it gathers all the calibration data. A snapshot from the Mission Planner, 
 the procedure of calibration is presented in figure 2.
 
 
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
 ```
 Figure 2.6: Compass calibrating on mission planner
 ```
