@@ -612,14 +612,14 @@ The heading mesured by the compass and the one calculated from odometer is mappe
 in the domain of [-πto +π]. The logic used for the conversion is demonstrated in the figure
 5.4.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image077.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image077.gif)
 ```
 Figure 5.4: Logic for Mapping
 ```
 Later, the error was calculated from the difference between the compass and odometer
 headings the scope of which shown in figure 5.5
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image079.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image079.gif)
 ```
 Figure 5.5: Error between odometry and compass
 ```
