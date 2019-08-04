@@ -101,10 +101,8 @@ First task of this course was to remotely control the rover using a radio and th
 it to perform the waypoint navigation with GPS signal using autopilot in Mission Planner.
 The hardware setup for this task is presented in figure 2.1.
 
-```
-
 ![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image008.jpg)
-
+```
 Figure 2.1: Initial setup of hardware
 ```
 
