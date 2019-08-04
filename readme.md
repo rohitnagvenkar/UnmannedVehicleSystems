@@ -209,11 +209,6 @@ and minimum range. The gear switch is configured for safety override system. For
 position of the throttle was reversed from the servo output. A snapshot from the Mission
 Planner, displaying the procedure of calibration is presented in figure 2.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
-```
-Figure 2.6: Radio calibrating on mission planner
-```
-
 ### 2.6 Motor Test
 
 For confirmation, another way to test the motors polarity is by using motor test option. For
@@ -231,11 +226,11 @@ side of the wheels. Afterwards, the code was corrected as presented in figure 2.
 ```
 Figure 2.7: Radio calibration on mission planner
 ```
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image023.jpg)
 ```
 Figure 2.8: Motor Test on mission planner
 ```
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image025.jpg)
 ```
 Figure 2.9: PPM to PWM teensy code
 ```
@@ -252,11 +247,11 @@ signal pin 3 of the output is connected to the Pin A8 of the Teensy. Also, a com
 is established between Pixhawk, Teensy and the motor controller so that the voltages are
 measured with a common reference point. The pin layout is presented in figure 2.11.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image028.jpg)
 ```
 Figure 2.10: Skid Steering
 ```
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image030.jpg)
 ```
 Figure 2.11: Pin Connections from Teensy to H-bridge
 ```
@@ -265,7 +260,7 @@ figure 2.12, due to which, the motor operates in discontinuous mode and the rove
 make fast random movements that were difficult to control by the system. So, to overcome
 this jerky movement of the rover, the PWM frequency was increased to 20kHz.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image032.jpg)
 ```
 Figure 2.12: PWM frequency from H-bridge
 ```
@@ -277,7 +272,7 @@ polarity as instructed. The motor controller used in this project can withstand 
 current overload and since its a dual channel, it can supply constant voltage on both side of
 the rover. Figure 2.13 shows a picture of H-bridge.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image034.jpg)
 ```
 Figure 2.13: 50A dual Channel H-Bridge
 ```
@@ -287,7 +282,7 @@ For remote access of the pixhawk, telemetry was configured. To avoid the signals
 from the telemetry to interfere with another unknown device, the frequency was set to 50Hz
 as presented in figure 2.14.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image037.jpg)
 ```
 Figure 2.14: Telemetry Kit
 ```
@@ -360,7 +355,7 @@ solid platform was 3D printed and installed on the 4th layer at an elevated heig
 the LIDAR on it so that it could get clear 360-degree view without any obstruction at the
 center. The whole setup is as shown in the figure 3.1
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image038.jpg)
 ```
 Figure 3.1: Rover after mounting additional hardware
 ```
@@ -370,14 +365,14 @@ Workspace, Mavros, ROSserial and Arduino IDE for Teensy were then installed. Aft
 server was installed to remotely access the NUC from ground station. A screenshot of the
 UltraVNC Viewer together with the settings used is presented in figure 3.2
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image040.jpg)
 ```
 Figure 3.2: Accessing NUC via VNC remote access
 ```
 Also, the Pixhawk was not required in this task so Teensy code and wiring was also
 modified as presented in figure 3.3
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image042.jpg)
 ```
 Figure 3.3: Rearranged Wiring of Teensy
 ```
@@ -399,12 +394,12 @@ encoders were dismantled from the motor to analyze them visually and it was foun
 the infrared sensor on the left wheel was loose and the encoder wires of the right encoder
 were burnt due to which the counts were inconsistent. This is presented in figure 3.5.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image045.gif)
 ```
 Figure 3.4: Encoder Counts for Faulty Encoders
 ```
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image047.jpg)
 ```
 Figure 3.5: Faulty Encoders
 ```
@@ -422,7 +417,7 @@ eTick=encoderCountdistTravelled (3.1)
 ```
 Figure 3.6: Measured Encoder Counts for 5 seconds after Encoder Replacement
 ```
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image051.jpg)
 ```
 Figure 3.7: Simulink block to read the encoder counts
 ```
@@ -432,7 +427,7 @@ To estimate the value of b, the rover was commanded to rotate without any transl
 a period of 2 seconds and the resulting angular displacement of the platform was recorded.
 Then equation 3.2 was used to calculate b which turned out to be 0.2993384 m
 
-b=∆eCountL∆θ·−eTick∆eCountR (3.2)
+b=(∆eCountL - ∆eCountR)/(∆.(th)eTick) (3.2)
 Then, to verify, the distance between the middle wheels was measured and found to be
 0.29 m which was close to our computed parameter value.
 
@@ -442,7 +437,7 @@ Then, to verify, the distance between the middle wheels was measured and found t
 After plotting the PWM (ranging from -250 to 250) with the angular velocity,the dead band
 was found to be between -50 to 50 PWM cycle.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image053.jpg)
 ```
 Figure 3.8: Angular velocity vs PWM (values from lookup table)
 ```
@@ -455,7 +450,7 @@ turning were approximated and then the rover was tested for these values on the 
 surface and chose the values which yields the best performance. Some choices for PID gains
 are presented in table 3.9.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image055.jpg)
 ```
 Figure 3.9: PID Tuning
 ```
@@ -478,17 +473,17 @@ analysis, a delay was found in the data published through Teensy to the ROS. To 
 issue the connection was changed from digital to analog connection as shown in the line 296
 in the code in figure 4.3.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image057.jpg)
 ```
 Figure 4.1: Position of Sonar
 ```
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image060.jpg)
 ```
 Figure 4.2: Sonar Data Published to ROS
 ```
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image062.jpg)
 ```
 Figure 4.3: Modified Teensy Code
 ```
@@ -502,12 +497,12 @@ default speed of 600 rpm, it created a lot of vibrations in the rover. So, to av
 vibrations, the scanning speed of the LIDAR was reduced enough to scan the environment
 at lower rpm.
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image064.jpg)
 ```
 Figure 4.4: Position of LIDAR
 ```
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image066.jpg)
 ```
 Figure 4.5: Point Cloud Generated by LIDAR
 ```
@@ -529,7 +524,7 @@ correspondingly the rover will move either left or right. Finally, if the LIDAR 
 the obstacle then the heading angle will change accordingly depending on the which section
 sees it, (+1 or -1).
 
-![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image021.jpg)
+![Alt Text](https://github.com/rohitnagvenkar/UnmannedVehicleSystems/raw/master/UVS_images/image068.jpg)
 ```
 Figure 4.6: Area Scanned by LIDAR and SONAR
 ```
